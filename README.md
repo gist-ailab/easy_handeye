@@ -103,6 +103,13 @@ to accept or discard each sample. At the end, the parameters will be saved in a 
 
 #### eye-in-hand
 
+launch realsense driver, then
+```
+roslaunch easy_handeye eye_in_hand_panda_rs.launch
+```
+
+
+
 ```xml
 <launch>
   <!-- (start your robot's MoveIt! stack, e.g. include its moveit_planning_execution.launch) -->
@@ -124,6 +131,7 @@ to accept or discard each sample. At the end, the parameters will be saved in a 
   </include>
 </launch>
 ```
+
 
 #### eye-on-base
 
